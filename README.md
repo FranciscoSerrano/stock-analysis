@@ -10,8 +10,10 @@ I had previously assisted Steve by creating a Workbook with some VBA macros that
 ## Results
 
 ### Analysis
-Steve wants to find out what stocks his parents should invest in based on the data from 12 companies 2017 and 2018 returns.   
-In order to assist Steve, I created a sheet using VBA that includes a table which shows the return of each stock per year. The table uses conditional formatting to show which stocks have a positive rate of return and which stocks have a negative rate of return. Positive returns have a green cell and negative returns are colored red.   
+Steve wants to find out what stocks his parents should invest in based on the data from 12 companies 2017 and 2018 returns.  
+
+In order to help Steve, I created a sheet using VBA that includes a table which shows the return of each stock per year. The table uses conditional formatting to show which stocks have a positive rate of return and which stocks have a negative rate of return. Positive returns have a green cell and negative returns are colored red.   
+
 Based on the results, Steve should recommend that his parents invest in the ENPH and RUN stocks because they are the only two stocks listed that had a positive return in both 2017 and 2018.
 
 ![2017 Stock Data](/resources/2017_results.png)
@@ -68,7 +70,7 @@ During refactoring I set the index to 0 before going further. I also made a stan
 
 ```
 
-After these changes where made there was an time efficency gain that was an order of magnitude faster than the orignal time.
+After these changes where made there was an time efficency gain that was an **order of magnitude** faster than the orignal time.
 
 ![2017 VBA Data](/resources/VBA_Challenge_2017.png)
 
@@ -84,4 +86,4 @@ A disadvantage of refactoring code is that it takes time. There is a cost to ben
 ### How do these pros and cons apply to refactoring the original VBA script?
 The pros applied when removing the loops made the script much quicker as shown in the photos used for the analysis. It also made the script much easier to understand if a colleague were to go in and refector the script further.
 
-The cons occurred when I realized how much time I spent to save a thousandth of a second on a program that wasnt that slow to begin with. Although I can undertsand how it might be useful with much large data sets. A 10x decreace in time is the diference beween a day and just a couple hours.
+The cons occurred when I realized how much time I spent to save a thousandth of a second on a program that wasnt that slow to begin with. Although I can undertsand how it might be useful with much large data sets. A 10x decrease in time is the difference beween a day and just a couple hours.
