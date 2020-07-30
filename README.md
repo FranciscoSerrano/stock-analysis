@@ -86,4 +86,4 @@ A disadvantage of refactoring code is that it takes time. There is a cost to ben
 ### How do these pros and cons apply to refactoring the original VBA script?
 The pros applied when removing the loops made the script much quicker as shown in the photos used for the analysis. It also made the script much easier to understand if a colleague were to go in and refector the script further.
 
-The cons occurred when I realized how much time I spent to save a thousandth of a second on a program that wasnt that slow to begin with. Although I can undertsand how it might be useful with much large data sets. A 10x decrease in time is the difference beween a day and just a couple hours.
+The cons occurred when I realized how much time I spent to save a thousandth of a second on a program that wasnt that slow to begin with. Although I can undertsand how it might be useful with much larger data sets. A 10x decrease in time is the difference beween a day and just a couple hours.
