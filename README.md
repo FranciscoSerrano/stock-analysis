@@ -14,16 +14,16 @@ Steve wants to find out what stocks his parents should invest in based on the da
 In order to assist Steve, I created a sheet using VBA that includes a table which shows the return of each stock per year. The table uses conditional formatting to show which stocks have a positive rate of return and which stocks have a negative rate of return. Positive returns have a green cell and negative returns are colored red.   
 Based on the results, Steve should recommend that his parents invest in the ENPH and RUN stocks because they are the only two stocks listed that had a positive return in both 2017 and 2018.
 
-![2017 Stock Data](/Resources/2017_results.png)
+![2017 Stock Data](/resources/2017_results.png)
 
-![2018 Stock Data](/Resources/2018_results.png)
+![2018 Stock Data](/resources/2018_results.png)
 
 ### Refactoring
 Steve mentioned he wanted to look at the whole stock market for these two years. Aftering hearing this I wondered if I could make my VBA a little more effeciant realizing it'll be parsing a much larger data set.   
 
 During refactoring I set the index to 0 before going further. I also made a stand alone loop to set the volume of each stock to zero so that the program would not have to do it on each iteration. It was also changed so that the loop stayed on one sheet before moving to the next loop and did not have to switch back and forth each time.
 
-```Visual Basic .NET
+```VBA
    
     tickerIndex = 0
 
@@ -70,9 +70,9 @@ During refactoring I set the index to 0 before going further. I also made a stan
 
 After these changes where made there was an time efficency gain that was an order of magnitude faster than the orignal time.
 
-![2017 VBA Data](/Resources/VBA_Challenge_2017.png)
+![2017 VBA Data](/resources/VBA_Challenge_2017.png)
 
-![2018 VBA Data](/Resources/VBA_Challenge_2018.png)
+![2018 VBA Data](/resources/VBA_Challenge_2018.png)
 
 
 ## Summary
